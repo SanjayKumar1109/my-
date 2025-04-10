@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f8f8;
+  margin: 0;
+  padding: 30px;
+}
+
+.resume-flow {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.profile {
+  background-color: #d1f2eb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;  /* Use 50% if you want a perfect circle */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 2px solid #4CAF50;
+}
+
+.profile h1 {
+  color: #2e8b57;
+  margin: 10px 0;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  color: #3b5998;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #2e8b57;
+}
+
+.flow-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 12px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.about { background-color: #fefbd8; }
+.skills { background-color: #d6eaf8; }
+.activities { background-color: #fdebd0; }
+.goal { background-color: #f9e79f; }
+
+.arrow {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #aaa;
+  }
+
+h2 {
+  color: #2e8b57;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #d35400;
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.footer {
+    background-color:#fce4ec;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s;
+  }
+  .box.github {
+    background-color: #e8f0fe; /* Light blue */
+    border-left: 5px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .box.github a:hover {
+    color: #1b74e4;
+  }
